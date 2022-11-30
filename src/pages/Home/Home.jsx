@@ -18,6 +18,8 @@ const Home=({ className, id, texts: textsProp }) => {
 
   const homeClassNames=classnames(styles.Home, className);
 
+
+
   return (
     <div
       className={ homeClassNames }
